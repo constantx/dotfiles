@@ -42,3 +42,6 @@ defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 
 # change default location of screenshots to ~/Downloads
 defaults write com.apple.screencapture location ~/Downloads
+
+# play quicktime movie on open
+defaults write com.apple.QuickTimePlayerX MGPlayMovieOnOpen 1
