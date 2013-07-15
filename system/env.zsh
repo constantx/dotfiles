@@ -14,3 +14,8 @@ function cdl { cd $1; ls;}
 #  test -f "$f" && . "$f"
 # done
 # }}}
+
+
+
+# source nvm
+source ~/.nvm/nvm.sh
