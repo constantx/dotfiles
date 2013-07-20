@@ -10,6 +10,8 @@ fi
 # alias gl='git pull --prune'
 alias gb='git branch'
 alias gbl='git branch -l'
+alias gpoh='git push origin head'
+alias grso='git remote show origin'
 alias gc='git commit'
 alias gca='git commit -a'
 alias go='git checkout'
