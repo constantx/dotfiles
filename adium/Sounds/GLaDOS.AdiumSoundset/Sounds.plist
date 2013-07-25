@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AdiumSetVersion</key>
+	<integer>1</integer>
+	<key>Info</key>
+	<string>Created by Benji Lea
+
+Sounds from Portal
+(Copyright by Valve)
+
+Benji Lea (benji.lea@gmail.com)
+
+</string>
+	<key>Sounds</key>
+	<dict>
+		<key>Contact Signed Off</key>
+		<string>Contact Signs Off.wav</string>
+		<key>Contact Signed On</key>
+		<string>Contact Signs On.wav</string>
+		<key>Message Received</key>
+		<string>Message Received.wav</string>
+		<key>Message Received (New)</key>
+		<string>New Message Received.wav</string>
+		<key>Message Sent</key>
+		<string>Message Sent.wav</string>
+		<key>Connected</key>
+		<string>Connect.wav</string>
+		<key>Disconnected</key>
+		<string>Disconnect.wav</string>
+		<key>File Transfer Began</key>
+		<string>File Transfer Accepted.wav</string>
+		<key>File Transfer Canceled</key>
+		<string>File Transfer Failed.wav</string>
+		<key>File Transfer Complete</key>
+		<string>File Transfer Complete.wav</string>
+		<key>File Transfer failed</key>
+		<string>File Transfer Failed.wav</string>
+		<key>File Transfer Request</key>
+		<string>File Transfer Request.wav</string>
+		<key>Error</key>
+		<string>Error.wav</string>
+	</dict>
+</dict>
+</plist>

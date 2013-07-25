@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AdiumSetVersion</key>
+	<integer>1</integer>
+	<key>Info</key>
+	<string>Created by smashbrosfan
+
+Designed to be elegant yet simple.
+
+________________
+http://www.adiumx.com
+</string>
+	<key>Sounds</key>
+	<dict>
+		<key>Contact Signed Off</key>
+		<string>CntSnOff.mp3</string>
+		<key>Contact Signed On</key>
+		<string>CntSnOn.mp3</string>
+		<key>Message Received</key>
+		<string>ReceiveIM.mp3</string>
+		<key>Message Received (New)</key>
+		<string>NewIM.mp3</string>
+		<key>Message Sent</key>
+		<string>SendIM.mp3</string>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  line-height: 1.5em;
+  background-color: rgba(245, 246, 246, 0.5);
+}
+.head {
+  float: left;
+  margin-left: 70px;
+}
+.head .from > div {
+  color: #f5f6f6;
+  background-color: #f4524e;
+  line-height: 1.5em;
+  font-weight: normal;
+  padding: 0 1em;
+  text-transform: uppercase;
+}
+.msgs {
+  clear: both;
+  padding-left: 70px;
+}
+.msgs .time {
+  display: block;
+  float: left;
+  width: 65px;
+  margin-left: -70px;
+  text-align: center;
+  overflow: hidden;
+  color: #c2c2c2;
+  background-color: #f5f6f6;
+}
+.msgs .post .text {
+  color: #424242;
+  display: inline-block;
+  overflow: hidden;
+}
+.msgs .post .text img {
+  vertical-align: middle;
+}
+.msgs .post .text a {
+  white-space: pre;
+  text-decoration: none;
+  color: #222222;
+  padding: 0 0.5em;
+  border-bottom: solid 1px #424242;
+  display: inline-block;
+}
+.msgs .post .text a:before {
+  content: "";
+}
+.msgs .post .text a:after {
+  content: "";
+}
+/****** Container ******/.container {
+  background-color: rgba(245, 246, 246, 0.9);
+  /****** Message ******/
+  /****** History ******/
+  /****** Status ******/
+}
+.container > div {
+  padding: 4px 6px;
+}
+.container.message .head .from > div,
+.container.message .head .to > div {
+  color: #f5f6f6;
+  background-color: #f4524e;
+}
+.container.context {
+  background-color: rgba(245, 246, 246, 0.9);
+}
+.container.context .head .from > div,
+.container.context .head .to > div {
+  color: #222222;
+  background-color: #a8a8a8;
+}
+.container.context .msgs {
+  opacity: 0.4;
+}
+.container.context .msgs a {
+  color: #222222;
+  background-color: #a8a8a8;
+}
+.container.status .text {
+  color: #f18d1e;
+}
+.container.status .text:before {
+  content: '» ';
+}
+.container.status .time {
+  color: #f18d1e;
+}
+/* fix empty message fuckup */.spacefuckup {
+  display: block;
+  clear: both;
+}

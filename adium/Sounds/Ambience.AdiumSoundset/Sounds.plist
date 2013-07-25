@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AdiumSetVersion</key>
+	<integer>1</integer>
+	<key>Info</key>
+	<string>Ported from Alan W’s soundset for Proteus</string>
+	<key>Sounds</key>
+	<dict>
+		<key>Connected</key>
+		<string>account-connected.m4a</string>
+		<key>Connecting</key>
+		<string>account-connecting.m4a</string>
+		<key>Contact Signed Off</key>
+		<string>contact-offline.m4a</string>
+		<key>Contact Signed On</key>
+		<string>contact-online.m4a</string>
+		<key>Disconnected</key>
+		<string>account-disconnected.m4a</string>
+		<key>Error</key>
+		<string>general-notification.m4a</string>
+		<key>File Transfer Complete</key>
+		<string>file-complete.m4a</string>
+		<key>File Transfer Failed</key>
+		<string>file-failed.m4a</string>
+		<key>File Transfer Request</key>
+		<string>file-incoming.m4a</string>
+		<key>Message Received</key>
+		<string>message-received.m4a</string>
+		<key>Message Received (New)</key>
+		<string>message-firstreceived.m4a</string>
+		<key>Message Received (Stranger)</key>
+		<string>message-firstreceived.m4a</string>
+		<key>Message Sent</key>
+		<string>message-sent.m4a</string>
+		<key>New Mail Received</key>
+		<string>newmail.m4a</string>
+	</dict>
+</dict>
+</plist>
