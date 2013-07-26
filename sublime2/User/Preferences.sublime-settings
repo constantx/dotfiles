@@ -11,8 +11,9 @@
 	"line_padding_bottom": 1,
 	"rulers":
 	[
-		100
+		80
 	],
+	"wrap_width": 80,
 	"scroll_past_end": true,
 	"scroll_speed": 2,
 	"shift_tab_unindent": true,
@@ -23,6 +24,5 @@
 	"tree_animation_enabled": false,
 	"trim_trailing_white_space_on_save": true,
 	"use_simple_full_screen": true,
-	"word_wrap": true,
-	"wrap_width": 100
+	"word_wrap": true
 }
