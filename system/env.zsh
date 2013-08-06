@@ -1,8 +1,16 @@
 umask 022
 
 
-export EDITOR='subl -w'
-export NODE_ENV=development
+# Only set this if we haven't set $EDITOR up somewhere else previously.
+if [[ "$EDITOR" == "" ]] ; then
+  # Use sublime for my editor.
+  export EDITOR='subl'
+fi
+
+if [[ "$NODE_ENV" == "" ]] ; then
+  # Use sublime for my editor.
+  export NODE_ENV='development'
+fi
 
 function cdl { cd $1; ls;}
 
@@ -14,8 +22,6 @@ function cdl { cd $1; ls;}
 #  test -f "$f" && . "$f"
 # done
 # }}}
-
-
 
 # source nvm
 source ~/.nvm/nvm.sh
