@@ -22,3 +22,7 @@ alias gpr='git pull --rebase'
 alias grb="git ls-remote --heads origin"
 alias grm="git status | grep deleted | awk '{print \$3}' | xargs git rm"
 alias gs='git status -sb' # upgrade your git if -sb breaks for you. it's fun.
+# add `git catchup` and `git ribbon` from
+# http://gitready.com/advanced/2011/10/21/ribbon-and-catchup-reading-new-commits.html
+alias ribbon='git tag --force _ribbon origin/master'
+alias catchup='git log --patch --reverse --topo-order _ribbon..origin/master'
