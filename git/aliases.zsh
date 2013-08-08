@@ -25,6 +25,7 @@ alias gs='git status -sb' # upgrade your git if -sb breaks for you. it's fun.
 # add `git catchup` and `git ribbon` from
 # http://gitready.com/advanced/2011/10/21/ribbon-and-catchup-reading-new-commits.html
 alias ribbon='git tag --force _ribbon origin/master'
-alias catchup='git log --patch --reverse --topo-order _ribbon..origin/master'
+alias catchup='gl --patch --topo-order _ribbon..origin/master'
+alias quickcatchup='gl --topo-order _ribbon..origin/master'
 alias grm="git status | grep deleted | awk '{\$1=\$2=\"\"; print \$0}' | \
            perl -pe 's/^[ \t]*//' | sed 's/ /\\\\ /g' | xargs git rm"
