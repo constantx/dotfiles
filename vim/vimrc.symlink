@@ -71,9 +71,9 @@ filetype indent on
 set list listchars=tab:\ \ ,trail:·
 
 set wrap          "wrap lines
-set textwidth=72  "auto wrap and insert new line"
+set textwidth=72  "auto wrap and insert new line
 set linebreak     "Wrap lines at convenient points
-set ruler         "show line and column numbe status"
+set ruler         "show line and column numbe status
 
 " ================ Folds ============================
 
