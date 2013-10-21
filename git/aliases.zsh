@@ -10,6 +10,7 @@ fi
 # alias gl='git pull --prune'
 alias gb='git branch'
 alias gbl='git branch -l'
+alias gbm='git branch --merged'
 alias gpoh='git push origin head'
 alias grso='git remote show origin'
 alias gc='git commit'
@@ -20,12 +21,11 @@ alias gl="git log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(y
 alias gp='git push origin HEAD'
 alias gpr='git pull --rebase'
 alias grb="git ls-remote --heads origin"
-alias grm="git status | grep deleted | awk '{print \$3}' | xargs git rm"
+alias grm="git status | grep deleted | awk '{\$1=\$2=\"\"; print \$0}' | \
+           perl -pe 's/^[ \t]*//' | sed 's/ /\\\\ /g' | xargs git rm"
 alias gs='git status -sb' # upgrade your git if -sb breaks for you. it's fun.
 # add `git catchup` and `git ribbon` from
 # http://gitready.com/advanced/2011/10/21/ribbon-and-catchup-reading-new-commits.html
 alias ribbon='git tag --force _ribbon origin/master'
 alias catchup='gl --patch --topo-order _ribbon..origin/master'
 alias quickcatchup='gl --topo-order _ribbon..origin/master'
-alias grm="git status | grep deleted | awk '{\$1=\$2=\"\"; print \$0}' | \
-           perl -pe 's/^[ \t]*//' | sed 's/ /\\\\ /g' | xargs git rm"
