@@ -8,8 +8,12 @@ if [[ "$EDITOR" == "" ]] ; then
 fi
 
 if [[ "$NODE_ENV" == "" ]] ; then
-  # Use sublime for my editor.
   export NODE_ENV='development'
+  export PORT=5000
+fi
+
+if [[ "$RAILS_ENV" == "" ]] ; then
+  export RAILS_ENV='development'
 fi
 
 function cdl { cd $1; ls;}
