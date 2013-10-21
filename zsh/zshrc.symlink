@@ -39,11 +39,12 @@ done
 
 unset config_files
 
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-
-# set node environment
-export NODE_ENV=development
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
 # added by travis gem
 source /Users/t/.travis/travis.sh
+
+################################################################################
+## Maestro support -- Added on maestro installation
+
+source ~/.maestro/integration/maestro.zsh
+
+################################################################################
