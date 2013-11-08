@@ -21,9 +21,9 @@ git_dirty() {
   else
     if [[ "$st" =~ ^nothing ]]
     then
-      echo "on %{$fg_bold[green]%}$(git_prompt_info)%{$reset_color%}"
+      echo "%{$fg_bold[green]%}$(git_prompt_info)%{$reset_color%}"
     else
-      echo "on %{$fg_bold[red]%}$(git_prompt_info)%{$reset_color%}"
+      echo "%{$fg_bold[red]%}$(git_prompt_info)%{$reset_color%}"
     fi
   fi
 }
@@ -60,10 +60,10 @@ rb_prompt(){
 }
 
 directory_name(){
-  echo "%{$fg_bold[cyan]%}%10/%\/%{$reset_color%}"
+  echo "%{$fg_bold[cyan]%}%5/%\/%{$reset_color%}"
 }
 
-export PROMPT=$'\n$(rb_prompt) in $(directory_name) $(git_dirty)$(need_push)\n🐾  › '
+export PROMPT=$'\n$(rb_prompt) in $(directory_name) \n ☯ $(git_dirty)$(need_push)❯ '
 set_prompt () {
   export RPROMPT="%{$fg_bold[cyan]%}%{$reset_color%}"
 }
