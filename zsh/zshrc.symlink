@@ -41,10 +41,3 @@ unset config_files
 
 # added by travis gem
 source /Users/t/.travis/travis.sh
-
-################################################################################
-## Maestro support -- Added on maestro installation
-
-source ~/.maestro/integration/maestro.zsh
-
-################################################################################

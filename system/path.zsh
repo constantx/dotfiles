@@ -15,6 +15,3 @@ export PATH="$PATH:/usr/local/redis/src"
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
-
-# set Maestro path
-export PATH="$PATH:$HOME/.maestro/bin"
