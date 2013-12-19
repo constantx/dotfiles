@@ -45,3 +45,7 @@ defaults write com.apple.screencapture location ~/Downloads
 
 # play quicktime movie on open
 defaults write com.apple.QuickTimePlayerX MGPlayMovieOnOpen 1
+
+# Speed Up Mission Control Animations in Mac OS X
+# http://osxdaily.com/2012/02/14/speed-up-misson-control-animations-mac-os-x/
+defaults write com.apple.dock expose-animation-duration -float 0.1
