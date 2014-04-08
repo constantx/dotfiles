@@ -15,3 +15,6 @@ export PATH="$PATH:/usr/local/redis/src"
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+### add path phantomJS to brew cask
+export CHROME_BIN="/opt/homebrew-cask/Caskroom/google-chrome/stable-channel/Google Chrome.app/Contents/MacOS/Google Chrome"
