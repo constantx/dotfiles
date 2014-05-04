@@ -1,0 +1,33 @@
+{
+	"installed_packages":
+	[
+		"4GL",
+		"Alignment",
+		"All Autocomplete",
+		"AutoWrap",
+		"Better CoffeeScript",
+		"BracketHighlighter",
+		"CoffeeLint",
+		"CoffeeScript",
+		"Dart",
+		"DashDoc",
+		"DocBlockr",
+		"Dust.js",
+		"EditorConfig",
+		"Emmet",
+		"Gist",
+		"HTML Mustache",
+		"Jade",
+		"JavaScript Snippets",
+		"LESS",
+		"Markdown Extended",
+		"Package Control",
+		"Pretty JSON",
+		"Ruby Slim",
+		"SCSS",
+		"SideBarEnhancements",
+		"Stylus",
+		"Theme - Soda",
+		"Theme - Spacegray"
+	]
+}
