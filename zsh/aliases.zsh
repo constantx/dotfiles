@@ -9,4 +9,4 @@ function server() {
   python -m SimpleHTTPServer "$port"
 }
 
-alias bear="/usr/local/betty/main.rb"
+alias bear="~/.dotfiles/betty/main.rb"
