@@ -8,3 +8,5 @@ function server() {
   open "http://localhost:${port}/"
   python -m SimpleHTTPServer "$port"
 }
+
+alias bear="/usr/local/betty/main.rb"
