@@ -1,6 +1,6 @@
 {
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/User/Monokai (SL) DL.tmTheme",
+  "color_scheme": "Packages/User/Monokai DL.tmTheme",
 	"draw_centered": true,
 	"ensure_newline_at_eof_on_save": true,
 	"font_face": "Panic Sans",

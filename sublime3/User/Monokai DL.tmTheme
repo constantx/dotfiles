@@ -391,6 +391,16 @@
 
 	<dict>
             <key>name</key>
+            <string>Dartlint Info</string>
+            <key>scope</key>
+            <string>dartlint.mark.info</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#None</string>
+            </dict>
+        </dict><dict>
+            <key>name</key>
             <string>Dartlint Gutter Mark</string>
             <key>scope</key>
             <string>dartlint.mark.gutter</string>
@@ -409,16 +419,6 @@
             <string>Dartlint Warning</string>
             <key>scope</key>
             <string>dartlint.mark.warning</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#None</string>
-            </dict>
-        </dict><dict>
-            <key>name</key>
-            <string>Dartlint Info</string>
-            <key>scope</key>
-            <string>dartlint.mark.info</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
