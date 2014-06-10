@@ -18,3 +18,5 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 ### add path phantomJS to brew cask
 export CHROME_BIN="/opt/homebrew-cask/Caskroom/google-chrome/stable-channel/Google Chrome.app/Contents/MacOS/Google Chrome"
+
+export PATH="~/bin:$PATH"
