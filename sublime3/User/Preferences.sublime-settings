@@ -1,20 +1,22 @@
 {
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/User/Monokai DL.tmTheme",
+	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
 	"draw_centered": true,
 	"ensure_newline_at_eof_on_save": true,
-	"font_face": "inconsolata",
-	"font_size": 16.0,
+	"font_face": "panic sans",
+	"font_size": 15.0,
 	"highlight_line": true,
 	"ignored_packages":
 	[
+		"BracketHighlighter",
+		"SublimeCodeIntel",
 		"Vintage",
-		"BracketHighlighter"
+		"Markdown"
 	],
 	"line_padding_bottom": 1,
 	"rulers":
 	[
-		78
+		80
 	],
 	"scroll_past_end": true,
 	"scroll_speed": 3,
