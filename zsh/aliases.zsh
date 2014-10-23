@@ -5,8 +5,8 @@ alias dir='ls -alFh'
 # quick python server
 function server() {
   local port="${1:-8080}"
-  open "http://localhost:${port}/"
   python -m SimpleHTTPServer "$port"
+  open "http://localhost:${port}/"
 }
 
 alias bear="~/.dotfiles/betty/main.rb"

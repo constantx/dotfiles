@@ -1,6 +1,6 @@
 {
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
+	"color_scheme": "Packages/User/Theme - Spacegray/base16-ocean.dark.tmTheme",
 	"draw_centered": true,
 	"ensure_newline_at_eof_on_save": true,
 	"font_face": "panic sans",
@@ -8,8 +8,8 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"BracketHighlighter",
 		"Vintage",
+		"BracketHighlighter",
 		"Markdown"
 	],
 	"line_padding_bottom": 1,
