@@ -9,8 +9,8 @@
 	"ignored_packages":
 	[
 		"Markdown",
-		"Vintage",
-		"BracketHighlighter"
+		"BracketHighlighter",
+		"Vintage"
 	],
 	"line_padding_bottom": 1,
 	"rulers":

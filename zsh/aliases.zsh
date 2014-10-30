@@ -9,4 +9,4 @@ function server() {
   open "http://localhost:${port}/"
 }
 
-alias bear="~/.dotfiles/betty/main.rb"
+alias betty="~/.dotfiles/betty/main.rb"
