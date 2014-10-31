@@ -4,8 +4,6 @@
 		"4GL",
 		"Alignment",
 		"BracketHighlighter",
-		"CoffeeLint",
-		"CoffeeScript",
 		"DocBlockr",
 		"EditorConfig",
 		"Emmet",
@@ -13,7 +11,6 @@
 		"Jade",
 		"JavaScriptNext - ES6 Syntax",
 		"JsFormat",
-		"JSHint Gutter",
 		"LESS",
 		"MarkdownEditing",
 		"Package Control",
@@ -21,9 +18,10 @@
 		"SCSS",
 		"SideBarEnhancements",
 		"Stylus",
+		"SublimeLinter",
 		"SublimeLinter-jscs",
+		"SublimeLinter-jshint",
 		"TernJS",
-		"Theme - Soda",
 		"Theme - Spacegray"
 	]
 }
