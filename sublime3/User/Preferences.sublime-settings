@@ -4,13 +4,13 @@
 	"draw_centered": true,
 	"ensure_newline_at_eof_on_save": true,
 	"font_face": "panic sans",
-	"font_size": 15.0,
+	"font_size": 16.0,
 	"highlight_line": true,
 	"ignored_packages":
 	[
 		"Markdown",
-		"Vintage",
-		"BracketHighlighter"
+		"BracketHighlighter",
+		"Vintage"
 	],
 	"line_padding_bottom": 1,
 	"rulers":
