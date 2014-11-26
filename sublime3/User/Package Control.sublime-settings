@@ -1,7 +1,6 @@
 {
 	"installed_packages":
 	[
-		"4GL",
 		"Alignment",
 		"BracketHighlighter",
 		"DocBlockr",
@@ -14,14 +13,11 @@
 		"LESS",
 		"MarkdownEditing",
 		"Package Control",
-		"Ruby Slim",
-		"SCSS",
 		"SideBarEnhancements",
 		"Stylus",
 		"SublimeLinter",
 		"SublimeLinter-jscs",
 		"SublimeLinter-jshint",
-		"TernJS",
 		"Theme - Spacegray"
 	]
 }

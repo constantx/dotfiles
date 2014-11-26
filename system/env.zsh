@@ -29,3 +29,5 @@ function cdl { cd $1; ls;}
 
 # source nvm
 source ~/.nvm/nvm.sh
+
+source ~/.bash_profile > /dev/null
