@@ -37,7 +37,10 @@ defaults write com.apple.Safari "com.apple.Safari.ContentPageGroupIdentifier.Web
 defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 
 # change default location of screenshots to ~/Downloads
-defaults write com.apple.screencapture location ~/Downloads
+defaults write com.apple.screencapture location ~/Dropbox/screenshots
+
+# disable window drop shadow for screenshot of individual window
+defaults write com.apple.screencapture disable-shadow -bool true
 
 # play quicktime movie on open
 defaults write com.apple.QuickTimePlayerX MGPlayMovieOnOpen 1
@@ -45,3 +48,9 @@ defaults write com.apple.QuickTimePlayerX MGPlayMovieOnOpen 1
 # Speed Up Mission Control Animations in Mac OS X
 # http://osxdaily.com/2012/02/14/speed-up-misson-control-animations-mac-os-x/
 defaults write com.apple.dock expose-animation-duration -float 0.1
+
+
+# set nudge distance for sketch arrow key
+defaults write com.bohemiancoding.sketch3 nudgeDistanceSmall -float 1.0
+# # set nudge distance for sketch SHIFT + arrow key
+defaults write com.bohemiancoding.sketch3 nudgeDistanceBig -float 10.0

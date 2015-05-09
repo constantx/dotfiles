@@ -1,3 +1,5 @@
+dotfiles.sublime-workspace
+
 sublime3/User/Package\ Control.sublime-settings
 sublime3/User/Package\ Control.last-run
 sublime3/User/Package\ Control.cache
@@ -6,3 +8,5 @@ sublime3/User/Gist.sublime-settings
 gitconfig.symlink
 
 .DS_Store
+sublime3/User/Package Control.merged-ca-bundle
+sublime3/User/Package Control.user-ca-bundle

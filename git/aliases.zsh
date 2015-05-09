@@ -9,19 +9,21 @@ fi
 # The rest of my fun git aliases
 # alias gl='git pull --prune'
 alias gb='git branch'
+alias gdc='git diff --cached'
+alias gdtc='git difftool --cached'
 alias gbl='git branch -l'
 alias gbm='git branch --merged'
-alias gpoh='git push origin head'
-alias grso='git remote show origin'
 alias gc='git commit'
 alias gca='git commit -a'
-alias go='git checkout'
-alias god='git checkout develop'
 alias gd='git diff'
 alias gl="git log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
+alias go='git checkout'
+alias god='git checkout develop'
 alias gp='git push origin HEAD'
+alias gpoh='git push origin head'
 alias gpr='git pull --rebase'
 alias grb="git ls-remote --heads origin"
+alias grso='git remote show origin'
 alias grm="git status | grep deleted | awk '{\$1=\$2=\"\"; print \$0}' | \
            perl -pe 's/^[ \t]*//' | sed 's/ /\\\\ /g' | xargs git rm"
 alias gs='git status -sb' # upgrade your git if -sb breaks for you. it's fun.

@@ -1,11 +1,16 @@
 {
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
 		"Alignment",
+		"Better CoffeeScript",
 		"BracketHighlighter",
 		"DocBlockr",
 		"EditorConfig",
 		"Emmet",
+		"Handlebars",
 		"HTML Mustache",
 		"Jade",
 		"JavaScriptNext - ES6 Syntax",
@@ -13,11 +18,13 @@
 		"LESS",
 		"MarkdownEditing",
 		"Package Control",
+		"Seti_UI",
 		"SideBarEnhancements",
 		"Stylus",
 		"SublimeLinter",
-		"SublimeLinter-jscs",
+		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-jshint",
+		"Theme - Glacier",
 		"Theme - Spacegray"
 	]
 }
