@@ -8,5 +8,24 @@
       "activate_browser": true,
       "browser_name" : "Google Chrome"
     }
+  },
+
+  {
+      "keys": ["tab"],
+      "command": "expand_abbreviation_by_tab",
+      "context": [
+          {
+              "operand": "source.js.jsx",
+              "operator": "equal",
+              "match_all": true,
+              "key": "selector"
+          },
+          {
+              "key": "selection_empty",
+              "operator": "equal",
+              "operand": true,
+              "match_all": true
+          }
+      ]
   }
 ]
