@@ -29,6 +29,8 @@
 		"SublimeLinter-contrib-eslint",
 		"Swift",
 		"Theme - Glacier",
-		"Theme - Spacegray"
+		"Theme - Spacegray",
+		"Unicode Character Insert",
+		"Unicode Escape"
 	]
 }

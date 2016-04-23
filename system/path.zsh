@@ -20,3 +20,6 @@ export PATH="/usr/local/heroku/bin:$PATH"
 export CHROME_BIN="/opt/homebrew-cask/Caskroom/google-chrome/stable-channel/Google Chrome.app/Contents/MacOS/Google Chrome"
 
 export PATH="~/bin:$PATH"
+
+export PATH="/usr/local/foreman/bin:$PATH"
+
