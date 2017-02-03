@@ -68,7 +68,7 @@ filetype plugin on
 filetype indent on
 
 " Display tabs and trailing spaces visually
-set list listchars=tab:\ \ ,trail:·
+" set list listchars=tab:\ \ ,trail:·
 
 set wrap          "wrap lines
 set textwidth=72  "auto wrap and insert new line
