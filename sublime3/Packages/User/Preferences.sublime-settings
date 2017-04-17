@@ -20,7 +20,7 @@
 	"bold_folder_labels": true,
 	"caret_extra_width": 2,
 	"caret_style": "phase",
-	"color_scheme": "Packages/User/Monokai Phoenix (SL).tmTheme",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
 	"draw_centered": true,
 	"ensure_newline_at_eof_on_save": true,
 	"folder_exclude_patterns":
@@ -29,7 +29,7 @@
 		".git"
 	],
 	"font_face": "Fira Code",
-	"font_size": 15,
+	"font_size": 13,
 	"highlight_line": true,
 	"ignored_packages":
 	[
@@ -47,6 +47,15 @@
 	],
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
+	"material_theme_accent_orange": true,
+	"material_theme_arrow_folders": true,
+	"material_theme_bright_scrollbars": true,
+	"material_theme_bullet_tree_indicator": true,
+	"material_theme_compact_panel": true,
+	"material_theme_contrast_mode": true,
+	"material_theme_small_statusbar": true,
+	"material_theme_small_tab": true,
+	"material_theme_tabs_separator": true,
 	"open_files_in_new_window": false,
 	"rulers":
 	[
@@ -58,7 +67,7 @@
 	"show_tab_close_buttons": false,
 	"smart_indent": true,
 	"tab_size": 2,
-  "theme": "Material-Theme.sublime-theme",
+	"theme": "Material-Theme.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"tree_animation_enabled": false,
 	"trim_trailing_white_space_on_save": true,
